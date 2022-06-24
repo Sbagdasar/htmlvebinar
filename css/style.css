@@ -60,11 +60,6 @@ section {
     font-weight: 700;
 }
 
-.nav-link {
-    color: #fff;
-    text-decoration: none;
-}
-
 .card {
     width: 370px;
     border: 2px solid #E6E6E6;
@@ -73,6 +68,15 @@ section {
 }
 .card-img{
     margin: 40px 0 36px;
+}
+.cards-wrap{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
 }
 .nav-icon{
     margin: 20px 0;
