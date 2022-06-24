@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,
+footer{
+    background-color: #6C63FF;
+}
+
+header{
+    height: 80px;
+}
+
+section{
+    background-color: #fff;
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #2F2E41;
+}
