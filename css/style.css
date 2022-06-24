@@ -3,31 +3,77 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2F2E41;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+}
+
 header,
-footer{
+footer {
     background-color: #6C63FF;
 }
 
-header{
+header {
     height: 80px;
 }
-
-section{
+.header-wrap{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section {
     background-color: #fff;
 }
 
-.avatar{
+.avatar {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
 }
-.title{
-    font-family: 'Roboto';
-    font-style: normal;
+
+.title {
     font-weight: 700;
     font-size: 44px;
     line-height: 52px;
     text-transform: uppercase;
-    color: #2F2E41;
+    text-align: center;
+    margin: 100px 0 70px;
+    
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-text span {
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card {
+    width: 370px;
+    border: 2px solid #E6E6E6;
+    border-radius: 5px;
+    padding: 46px 20px;
+}
+.card-img{
+    margin: 40px 0 36px;
+}
+.nav-icon{
+    margin: 20px 0;
 }
